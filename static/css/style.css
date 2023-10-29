@@ -30,6 +30,10 @@ body {
     flex-direction: column;
 }
 
+input {
+    -webkit-appearance: none;
+}
+
 @media (max-device-width: 780px) {
     body {
         background-size: contain;
