@@ -84,13 +84,13 @@ header {
 
 @media (max-device-width: 780px) {
     #itcross-link {
-        font-size: 25px;
+        font-size: 45px;
     }
 }
 
 @media (max-width: 780px) {
     #itcross-link {
-        font-size: 25px;
+        font-size: 45px;
     }
 }
 
