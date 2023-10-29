@@ -127,13 +127,13 @@ header {
 
 @media (max-device-width: 780px) {
     .user-data {
-        font-size: 20px;
+        font-size: 45px;
     }
 }
 
 @media (max-width: 780px) {
     .user-data {
-        font-size: 20px;
+        font-size: 45px;
     }
 }
 
