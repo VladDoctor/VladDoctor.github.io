@@ -207,27 +207,34 @@ select:enabled {
 
 @media (max-device-width: 780px) {
     #answer-input {
+        width: 100%;
         margin-bottom: 20px;
         font-size: 30px;
+        border-radius: 100px;
     }
 }
 
 @media (max-device-width: 780px) {
     #answer-input::placeholder {
         font-size: 30px;
+        border-radius: 100px;
+        padding-left: 10px;
     }
 }
 
 @media (max-width: 780px) {
     #answer-input {
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 30px;
+        border-radius: 100px;
     }
 }
 
 @media (max-width: 780px) {
     #answer-input::placeholder {
-        font-size: 16px;
+        font-size: 30px;
+        border-radius: 100px;
+        padding-left: 10px;
     }
 }
 
