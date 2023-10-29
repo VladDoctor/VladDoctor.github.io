@@ -208,13 +208,13 @@ select:enabled {
 @media (max-device-width: 780px) {
     #answer-input {
         margin-bottom: 20px;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
 @media (max-device-width: 780px) {
     #answer-input::placeholder {
-        font-size: 16px;
+        font-size: 30px;
     }
 }
 
