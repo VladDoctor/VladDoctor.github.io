@@ -90,7 +90,7 @@ header {
 
 @media (max-width: 780px) {
     #itcross-link {
-        font-size: 45px;
+        font-size: 25px;
     }
 }
 
@@ -133,7 +133,7 @@ header {
 
 @media (max-width: 780px) {
     .user-data {
-        font-size: 45px;
+        font-size: 25px;
     }
 }
 
@@ -173,9 +173,6 @@ select {
     select {
         margin-bottom: 20px;
         font-size: 16px;
-        /*width: 100%;
-        border-radius: 100px;
-        padding-left: 1.4em;*/
     }
 }
 
@@ -231,14 +228,14 @@ select:enabled {
 @media (max-width: 780px) {
     #answer-input {
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 16px;
         border-radius: 100px;
     }
 }
 
 @media (max-width: 780px) {
     #answer-input::placeholder {
-        font-size: 30px;
+        font-size: 16px;
         border-radius: 100px;
         padding-left: 10px;
     }
