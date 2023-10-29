@@ -1,0 +1,378 @@
+::placeholder {
+    color: #818C93;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #818C93;
+}
+
+::-ms-select-placeholder {
+    /* Edge 12 -18 */
+    color: #818C93;
+}
+
+html {
+    background: #102431;
+}
+
+body {
+    font-family: 'Manrope';
+    background: #102431;
+    background-size: cover;
+    background-image: url('/static/images/background.png');
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 780px) {
+    body {
+        background-size: contain;
+    }
+}
+
+main {
+    flex: 1 0 auto
+}
+
+header {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5.5%;
+    padding-top: 3.5%;
+}
+
+@media (max-width: 780px) {
+    header {
+        background-color: #102431;
+    }
+}
+
+#itcross-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#itcross-link:visited {
+    color: #fff
+}
+
+@media (max-width: 780px) {
+    #itcross-link {
+        font-size: 25px;
+    }
+}
+
+#itcross-link:active {
+    color: #fff;
+}
+
+#itcross-link:hover {
+    color: #E8E8E8;
+    transition: .3s;
+}
+
+.user-form-inline {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5.5%;
+    margin-bottom: 100px;
+}
+
+.user-form-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+}
+
+.user-data {
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Manrope';
+    font-weight: 600;
+    width: 90%;
+}
+
+@media (max-width: 780px) {
+    .user-data {
+        font-size: 20px;
+    }
+}
+
+select {
+    font-family: 'Manrope';
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    background-color: #102431;
+    border-radius: 1.4rem;
+    width: 90%;
+    max-width: 700px;
+    height: 6vh;
+    min-height: 50px;
+    padding-left: 5%;
+    font-weight: 300;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: #102431;
+    color: #818C93;
+    font-size: 20px;
+}
+
+@media (max-width: 780px) {
+    select {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+
+select:disabled {
+    color: #818C93;
+}
+
+select:enabled {
+    color: #fff;
+}
+
+#answer-input {
+    font-family: 'Manrope';
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    background-color: #102431;
+    border-radius: 1.4rem;
+    width: 90%;
+    height: 6vh;
+    min-height: 50px;
+    padding-left: 5%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+#answer-input::placeholder {
+    background-color: #102431;
+    color: #818C93;
+    font-size: 20px;
+}
+
+@media (max-width: 780px) {
+    #answer-input {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    #answer-input::placeholder {
+        font-size: 16px;
+    }
+}
+
+.send-user-form {
+    font-family: 'Manrope';
+    height: 6vh;
+    min-height: 47px;
+    background-color: #DE753B;
+    font-size: 26px;
+    width: 55%;
+    border-radius: 1.4rem;
+    border: none;
+    color: #102431;
+    font-weight: 500;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+@media (max-width: 780px) {
+    .send-user-form {
+        font-size: 20px;
+        max-width: 300px;
+    }
+}
+
+.send-user-form:hover {
+    background-color: #CC6B36;
+    transition: .3s;
+}
+
+footer {
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 300;
+    width: 90%;
+    color: #818C93;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5.5%;
+    padding-bottom: 2.5%;
+    background-color: #102431;
+    flex: 0 0 auto;
+}
+
+@media (max-width: 780px) {
+    footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-top: 1px solid #fff;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.user-agreement {
+    width: 50%;
+    min-width: 150px;
+}
+
+@media (max-width: 780px) {
+    .user-agreement {
+        order: 3;
+        flex-direction: column;
+        margin: 0 auto 50px;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 0;
+        width: 90%;
+    }
+}
+
+#license-link {
+    color: #818C93;
+    cursor: pointer;
+    text-underline-offset: 4.5px;
+}
+
+#license-link:visited {
+    color: #818C93;
+}
+
+#license-link:active {
+    color: #818C93;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 780px) {
+    .nav-logo {
+        order: 2;
+        margin: 0 auto 20px;
+        padding-left: 0;
+    }
+}
+
+.smedia-logo {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 3.5vw;
+}
+
+@media (max-width: 780px) {
+    .smedia-logo {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.com-logo {
+    padding-top: 1vh;
+    padding-left: 5vw;
+}
+
+@media (max-width: 780px) {
+    .com-logo {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+#company-logo {
+    width: 10vw;
+    height: 2vw;
+}
+
+@media (max-width: 780px) {
+    #company-logo {
+        width: auto;
+        height: 25px;
+        margin: 50px auto 20px;
+        display: block;
+    }
+}
+
+#vk-logo {
+    background-image: url('/images/vk.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#vk-logo:hover {
+    background-image: url('/static/images/vk-white.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#x-logo {
+    background-image: url('/static/images/x.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#x-logo:hover {
+    background-image: url('/static/images/x-white.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#habr-logo {
+    background-image: url('/static/images/habr.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#habr-logo:hover {
+    background-image: url('/static/images/habr-white.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#tg-logo {
+    background-image: url('/static/images/tg.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#tg-logo:hover {
+    background-image: url('/Users/the_doctor/Desktop/crossword_frontend/static/images/tg-white.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#youtube-logo {
+    background-image: url('/static/images/youtube.png');
+    background-size: cover;
+    transition: .3s;
+}
+
+#youtube-logo:hover {
+    background-image: url('/static/images/youtube-white.png');
+    background-size: cover;
+    transition: .3s;
+}
