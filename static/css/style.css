@@ -22,7 +22,7 @@ body {
     font-family: 'Manrope';
     background: #102431;
     background-size: cover;
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/background.png');
+    background-image: url('../images/background.png');
     padding: 0;
     margin: 0;
     height: 100%;
@@ -338,62 +338,62 @@ footer {
 }
 
 #vk-logo {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/vk.png');
+    background-image: url('../images/vk.png');
     background-size: cover;
     transition: .3s;
 }
 
 #vk-logo:hover {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/vk-white.png');
+    background-image: url('../images/vk-white.png');
     background-size: cover;
     transition: .3s;
 }
 
 #x-logo {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/x.png');
+    background-image: url('../images/x.png');
     background-size: cover;
     transition: .3s;
 }
 
 #x-logo:hover {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/x-white.png');
+    background-image: url('../images/x-white.png');
     background-size: cover;
     transition: .3s;
 }
 
 #habr-logo {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/habr.png');
+    background-image: url('../images/habr.png');
     background-size: cover;
     transition: .3s;
 }
 
 #habr-logo:hover {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/habr-white.png');
+    background-image: url('../images/habr-white.png');
     background-size: cover;
     transition: .3s;
 }
 
 #tg-logo {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/tg.png');
+    background-image: url('../images/tg.png');
     background-size: cover;
     transition: .3s;
 }
 
 #tg-logo:hover {
     /* проверить на сервере ссылку на изображение */
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/tg-white.png');
+    background-image: url('../images/tg-white.png');
     background-size: cover;
     transition: .3s;
 }
 
 #youtube-logo {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/youtube.png');
+    background-image: url('../images/youtube.png');
     background-size: cover;
     transition: .3s;
 }
 
 #youtube-logo:hover {
-    background-image: url('/Users/the_doctor/Desktop/itcross_frontend_new/static/images/youtube-white.png');
+    background-image: url('../images/youtube-white.png');
     background-size: cover;
     transition: .3s;
 }
