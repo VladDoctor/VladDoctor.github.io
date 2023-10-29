@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT-кроссворд Selectel</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/cookies.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="https://promo.selectel.ru/itcross" id="itcross-link" target="_blank">IT-кроссворд<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selectel</a>
+        </header>
+        <div class="user-form-inline">
+            <div class="user-form-block" id="user-form-block-id">
+                <p class="user-data">{{user.habr_login}},<br>
+                вы набрали 25 баллов</p>
+                <form id="form">
+                <select name="question" id="question" disabled>
+                    <option value="..." disabled selected>Загрузка...</option>
+                </select>
+                <input name="answer" type="text" id="answer-input" placeholder="Напишите ответ">
+                <br>
+                <input type="submit" value="Отправить" class="send-user-form" disabled>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="user-agreement">
+            © ООО «Селектел», 2008—2023<br> 
+            Лицензия на телематические услуги <br>№ 176267
+            <a id="license-link" href="https://files.selectel.ru/docs/ru/personal-data-processing-and-protection-policy.pdf?_gl=1*1cgd0vb*_ga*ODk0ODU5ODAzLjE2OTcwMTgxOTk.*_ga_H3R3VJH01B*MTY5NzM4ODMzMy4zOS4xLjE2OTczODk5ODAuNTcuMC4w" target="_blank">
+                <!-- Обновление -->
+                Политика в отношении обработки <br>персональных данных</a>
+        </div>
+        <nav class="nav-logo">
+            <!-- Обновление -->
+            <a href="https://slc.tl/w8k1n" target="_blank"><div class="smedia-logo-first" id="vk-logo"></div></a>
+            <!-- -- -->
+            <a href="https://slc.tl/2hx2e" target="_blank"><div class="smedia-logo" id="x-logo"></div></a>
+            <a href="https://slc.tl/8x5m0" target="_blank"><div class="smedia-logo" id="habr-logo"></div></a>
+            <a href="https://slc.tl/fkn3b" target="_blank"><div class="smedia-logo" id="tg-logo"></div></a>
+            <a href="https://slc.tl/tu6xd" target="_blank"><div class="smedia-logo" id="youtube-logo"></div></a>
+        </nav>
+        <div class="com-logo">
+            <a href="https://selectel.ru" target="_blank"><img src="images/logo_white.png" id="company-logo"></a>
+        </div>
+    </footer>
+
+    <div class="cookies-message-block" style="display: none">
+        <div class="cookies-message">
+            <div class="cookies-message-text">
+                Продолжая использовать наш сайт, вы соглашаетесь с <a href="file:///Users/the_doctor/Desktop/crossword_frontend/%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%BE%D0%B9%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20Cookies" 
+                id="cookies-link">политикой использования Cookies</a>. 
+                Это файлы в браузере, которые помогают нам сделать ваш опыт взаимодействия с сайтом удобнее.
+            </div>
+            <button id="cookies-ok">OK</button>
+        </div>
+    </div>
+
+    <!--- Вова, это твои поля -->
+    <script src="/static/axios.min.js"></script>
+    <script src="/static/index.js"></script>
+</body>
+</html>
